@@ -12,3 +12,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.quote--container{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box{
+  display: inline-block;
+  width: 400px;
+}
+.button--quote{
+  float:right
+}
+#author{
+  float: right;
+}
+.author--container{
+  display: inline-block;
+  width: 100%;
+}
